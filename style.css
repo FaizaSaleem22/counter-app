@@ -1,0 +1,7 @@
+div {
+    display: flex;
+}
+div * {
+    margin: auto;
+    display: inline-block;
+}

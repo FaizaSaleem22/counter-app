@@ -1,7 +1,71 @@
-div {
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-div * {
-    margin: auto;
-    display: inline-block;
+.parent {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 70vh;
+    margin: 70px auto;
+}
+div{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+
+
+}
+#number {
+    font-size: 150px;
+}
+button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    width: 70px;
+    padding: 20px 30px 45px;
+    margin: 30px;
+}
+h1 {
+    font-size: 70px;
+   
+}
+.plus {
+    background-color: green;
+    border: 2px solid black;
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 70px;              
+    height: 70px;
+    padding: 0;        
+}
+.minus {
+    background-color: red;
+    border: 2px solid black;
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 70px;              
+    height: 70px;
+    padding: 0;        
+}
+.reset {
+    background-color: yellow;
+    border: 2px solid black;
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 70px;              
+    height: 70px;
+    padding: 0;        
+   
+}
+.resetI {
+    font-size: 20px;
 }
